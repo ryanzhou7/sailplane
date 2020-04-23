@@ -8,7 +8,10 @@ const currentComponent = 'currentComponent'
 const landing = 'landing'
 
 function App () {
-  if (window.localStorage.getItem(currentComponent) === undefined) {
+  if (
+    window.localStorage.getItem(currentComponent) !== landing &&
+    window.localStorage.getItem(currentComponent) !== 'app'
+  ) {
     window.localStorage.setItem(currentComponent, landing)
   }
 
@@ -26,4 +29,4 @@ function App () {
   )
 }
 
-export default App;
+export default App
