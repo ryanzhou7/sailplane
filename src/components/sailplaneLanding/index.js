@@ -1,4 +1,4 @@
 
 import SailplaneLanding from './SailplaneLanding'
 
-export SailplaneLanding
+export default SailplaneLanding

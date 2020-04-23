@@ -1,4 +1,4 @@
 
 import SailplaneApp from './SailplaneApp'
 
-export SailplaneApp
+export default SailplaneApp
